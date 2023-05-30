@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Cloud Researcher
-subtitle: Artificial Intelligence Research Laboratory, ETRI
-cover-img: /assets/img/itu-seokho-m4.jpg
+title: 나만의 웹사이트 만들기
+subtitle: GitHub 오픈 소스를 활용한 웹사이트 만들기
+cover-img: /assets/img/Test.jpg
 ---
 
 <html>
