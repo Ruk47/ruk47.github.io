@@ -12,16 +12,16 @@ cover-img: /assets/img/portfolio.jpg
   <h1>포트폴리오 관리</h1>
 
   <form id="portfolioForm" onsubmit="return false;">
-    <label for="stockName">주식 이름:</label>
+    <p><label for="stockName">주식 이름:</label></p>
     <input type="text" id="stockName" required>
 
-    <label for="stockQuantity">보유 수량:</label>
+    <p><label for="stockQuantity">보유 수량:</label></p>
     <input type="number" id="stockQuantity" required>
 
-    <label for="purchasePrice">매수 가격:</label>
+    <p><label for="purchasePrice">매수 가격:</label></p>
     <input type="number" id="purchasePrice" required>
 
-    <button onclick="addStockToPortfolio()">추가</button>
+    <p><button onclick="addStockToPortfolio()">추가</button></p>
   </form>
 
   <div id="portfolioTable"></div>

@@ -14,9 +14,9 @@ author: Test
 navbar-links:
   개요: "outline"
   평가손익과 수익률: "graph"
-  챗 봇: "chatbot"
   포트폴리오: "portfolio"
   GitHub: "https://github.com/Ruk47"
+  Bootstrap Test: "test"
 
 
 # [수정필요] 아바타 로고 사용 시에는 이미지 파일을 지정 (이미지 파일 업로드 후, 위치 지정)
