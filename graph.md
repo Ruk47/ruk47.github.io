@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publication
+title: 평가손익과 수익률 그래프
 ---
 
 <html>
