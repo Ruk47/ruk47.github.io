@@ -11,13 +11,13 @@ title: Publication
 <body>
   <canvas id="profitChart" width="400" height="200"></canvas>
 
-  <label for="previousValue">저번달 현재평가액:</label>
+  <p><label for="previousValue">저번달 현재평가액:</label></p>
   <input type="number" id="previousValue">
 
-  <label for="currentValue">이번달 현재평가액:</label>
+  <p><label for="currentValue">이번달 현재평가액:</label></p>
   <input type="number" id="currentValue">
 
-  <button onclick="calculateProfit()">계산</button>
+  <p><button onclick="calculateProfit()">계산</button></p>
 
   <script>
     function calculateProfit() {
