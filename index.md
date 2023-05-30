@@ -24,7 +24,7 @@ cover-img: /assets/img/itu-seokho-m4.jpg
   <p><label for="sellQuantity">매도 수량:</label></p>
   <input type="number" id="sellQuantity">
 
-  <button onclick="calculate()">계산</button>
+  <p><button onclick="calculate()">계산</button></p>
 
   <p id="totalReturn"></p>
   <p id="totalProfit"></p>
