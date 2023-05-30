@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 평가손익과 수익률 그래프
+cover-img: /assets/img/money.jpg
 ---
 
 <html>
