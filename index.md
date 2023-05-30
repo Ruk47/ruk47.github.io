@@ -5,25 +5,136 @@ subtitle: Artificial Intelligence Research Laboratory, ETRI
 cover-img: /assets/img/itu-seokho-m4.jpg
 ---
 
-<br/>
-
-## About me
-
-**Seokho Son** is a **_senior researcher_** and **_open source special fellow_** of [ETRI](https://www.etri.re.kr/kor/main/main.etri) (Korean government-funded national research institute). He designs system architectures and devises sophisticated algorithms to accomplish national R&D projects in cloud computing domain.
-
-He has a broad technical background in cloud computing, multi-agent systems, resource management, and decision-making algorithms. He has published more than 20 international [research papers](https://scholar.google.com/citations?user=seokhoson) including highly cited top journals. His research has been presented in several conferences and organizations.
-
-He is carrying out various activities including international standardizations ([ITU-T](https://www.itu.int/en/ITU-T/about/Pages/default.aspx) standards), paper reviews for research journals, and contributions to open source projects.
-
-He is a founding member of the open souce project [Cloud-Barista](https://github.com/cloud-barista) and the leader and maintainer of [CB-Tumblebug](https://github.com/cloud-barista/cb-tumblebug) project.
-Also, he is a member of [Kubernetes](https://kubernetes.io/) and approver/reviewer of localization contents in Kubernetes [Dashboard](https://github.com/kubernetes/dashboard) and [Website](https://github.com/kubernetes/website).
-
-He loves to bring new ideas and share it with collaborators. Hello world! &#128525;
-
-## Contact
-
-```
-Affiliation: Cloud Computing SW Research Section, Future Computing Research Division, Artificial Intelligence Research Laboratory, Electronics and Telecommunications Research Institute (ETRI)
-Office: ETRI 7-563, 218, Gajeong-ro, Yuseong-gu, Daejeon, Republic of Korea
-Email: shsonkorea[at]etri.re.kr or shsongist[at]gmail.com
-```
+<br\>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <title>짜세 이름 생성기</title>
+</head>
+<body>
+    <div class="container">
+        <div class="odo_container" id="zzase_generator">
+            <span id="zzase_title">짜세 이름 생성기</span>
+                <div style="margin-bottom: 30px;">
+                    <div class="zzase_input_box">
+                        <input class="zzase_input" id="zzase_year" type="text" size="7" dir="rtl" value="1949"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                        <span >년</span>
+                        <!-- <select name="odo_zzase_gihab_year" id="odo_zzase_gihab_year" style="width: 100px;">
+                            <option value="황" selected>89</option>
+                            <option value="김">90</option>
+                            <option value="박">91</option>
+                            <option value="전">92</option>
+                            <option value="노">93</option>
+                            <option value="풍">94</option>
+                            <option value="도">95</option>
+                            <option value="흥">96</option>
+                            <option value="봉">97</option>
+                            <option value="장">98</option>
+                            <option value="현">99</option>
+                            <option value="남">00</option>
+                        </select> -->
+                    </div>
+                    <div class="zzase_input_box">
+                        <input class="zzase_input" id="zzase_month" type="text" size="7" dir="rtl" value="4"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                        <span >월</span>
+                        <!-- <select name="odo_zzase_gihab_month" id="odo_zzase_gihab_month" style="width: 100px;">
+                            <option value="근" selected>1</option>
+                            <option value="무">2</option>
+                            <option value="경">3</option>
+                            <option value="득">4</option>
+                            <option value="삼">5</option>
+                            <option value="구">6</option>
+                            <option value="창">7</option>
+                            <option value="현">8</option>
+                            <option value="평">9</option>
+                            <option value="판">10</option>
+                            <option value="달">11</option>
+                            <option value="봉">12</option>
+                        </select> -->
+                    </div>
+                    <div class="zzase_input_box">
+                        <input class="zzase_input" id="zzase_day" type="text" size="7" dir="rtl" value="15"
+                        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                        <span >일</span>
+                        <!-- <select name="odo_zzase_gihab_day" id="odo_zzase_gihab_day" style="width: 100px;">
+                            <option value="출" selected>1</option>
+                            <option value="걸">2</option>
+                            <option value="필">3</option>
+                            <option value="팔">4</option>
+                            <option value="상">5</option>
+                            <option value="칠">6</option>
+                            <option value="장">7</option>
+                            <option value="봉">8</option>
+                            <option value="남">9</option>
+                            <option value="태">10</option>
+                            <option value="현">11</option>
+                            <option value="붕">12</option>
+                            <option value="두">13</option>
+                            <option value="질">14</option>
+                            <option value="귀">15</option>
+                            <option value="능">16</option>
+                            <option value="묵">17</option>
+                            <option value="쇠">18</option>
+                            <option value="방">19</option>
+                            <option value="알">20</option>
+                            <option value="동">21</option>
+                            <option value="지">22</option>
+                            <option value="배">23</option>
+                            <option value="패">24</option>
+                            <option value="록">25</option>
+                            <option value="접">26</option>
+                            <option value="찰">27</option>
+                            <option value="점">28</option>
+                            <option value="닥">29</option>
+                            <option value="틀">30</option>
+                            <option value="례">31</option>
+                        </select> -->
+                    </div>
+                </div>
+                <button class="zzase_button" id="generate_zzase_name">생성</button>
+                <div id="print_name" style="margin-top: 10px;">
+                    <span>이름 : </span>
+                    <span id="odo_zzase_gihab_name"></span>
+                </div>
+                <button class="zzase_button" id="btn_text_copy">긴빠이 치기</button>
+                <!-- <a href="https://gall.dcinside.com/board/view/?id=marinecorps&no=199625" target="_blank">해병대식 이름짓기</a> -->
+        </div>
+        <div class="odo_container" id="random_generator"></div>
+    </div>
+    <script src="assets/JS/zzase.js"></script>
+    <script>
+        var first_name = ["황","김","박","전","노","풍","도","흥","봉","장","현","남"]
+        var middle_name = ["근","무","경","득","삼","구","창","현","평","판","달","봉"]
+        var last_name = ["출","걸","필","팔","상","칠","장","봉","남","태","현","붕","두","질","귀","능","묵","쇠","방","알","동","지","배","패","록","접","찰","점","닥","틀","례"]
+        document.getElementById("generate_zzase_name").onclick =  function() {
+            var s = ""
+            var name = document.getElementById("odo_zzase_gihab_name");
+            var year =  document.getElementById("zzase_year").value * 1;
+            console.log((year))
+            var s = s + (first_name[(year % 100)%89%11]+"");
+            var month = document.getElementById("zzase_month").value * 1;
+            var s = s + (middle_name[(month-1) % 12]+"");
+            var day = document.getElementById("zzase_day").value * 1;
+            var s = s + (last_name[(day-1) % 31]+"");
+            console.log(s)
+            name.innerText = s;
+        }
+        document.getElementById("btn_text_copy").onclick = function copy_password() {
+            var copyText = document.getElementById("odo_zzase_gihab_name");
+            var textArea = document.createElement("textarea");
+            textArea.value = copyText.textContent + " 해병님";
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("Copy");
+            textArea.remove();
+            alert("새끼... 기합!");
+        }
+    </script>
+</body>
+</html>
