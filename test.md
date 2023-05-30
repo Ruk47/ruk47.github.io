@@ -46,7 +46,7 @@
           <a href="#" class="btn btn-primary">Get Started</a>
         </div>
         <div class="col-md-6">
-          <img src="stock-image.jpg" alt="Stock Image" class="img-fluid">
+          <img src="/assets/img/stock.jpg" alt="Stock Image" class="img-fluid">
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4">
-            <img src="stock1.jpg" class="card-img-top" alt="Stock 1">
+            <img src="/assets/img/stock1.jpg" class="card-img-top" alt="Stock 1">
             <div class="card-body">
               <h5 class="card-title">Company A</h5>
               <p class="card-text">Stock Price: $100</p>
@@ -68,7 +68,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4">
-            <img src="stock2.jpg" class="card-img-top" alt="Stock 2">
+            <img src="/assets/img/stock2.jpg" class="card-img-top" alt="Stock 2">
             <div class="card-body">
               <h5 class="card-title">Company B</h5>
               <p class="card-text">Stock Price: $200</p>
@@ -78,7 +78,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4">
-            <img src="stock3.jpg" class="card-img-top" alt="Stock 3">
+            <img src="/assets/img/stock3.jpg" class="card-img-top" alt="Stock 3">
             <div class="card-body">
               <h5 class="card-title">Company C</h5>
               <p class="card-text">Stock Price: $300</p>
