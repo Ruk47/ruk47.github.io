@@ -5,7 +5,6 @@ subtitle: Artificial Intelligence Research Laboratory, ETRI
 cover-img: /assets/img/itu-seokho-m4.jpg
 ---
 
-<!DOCTYPE html>
 <html>
 <head>
   <title>주식 수익 계산기</title>
@@ -13,16 +12,16 @@ cover-img: /assets/img/itu-seokho-m4.jpg
 <body>
   <h1>주식 수익 계산기</h1>
 
-  <label for="currentPrice">현재 주가:</label>
+  <p><label for="currentPrice">현재 주가:</label></p>
   <input type="number" id="currentPrice">
 
-  <label for="buyQuantity">매수 수량:</label>
+  <p><label for="buyQuantity">매수 수량:</label></p>
   <input type="number" id="buyQuantity">
 
-  <label for="sellPrice">매도 주가:</label>
+  <p><label for="sellPrice">매도 주가:</label></p>
   <input type="number" id="sellPrice">
 
-  <label for="sellQuantity">매도 수량:</label>
+  <p><label for="sellQuantity">매도 수량:</label></p>
   <input type="number" id="sellQuantity">
 
   <button onclick="calculate()">계산</button>
